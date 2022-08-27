@@ -2,7 +2,7 @@ name: time-push
 on:
   workflow_dispatch:
   schedule: 
-    - cron: '0 22 * * *'
+    - cron: '0 21 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest 
